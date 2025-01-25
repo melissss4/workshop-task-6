@@ -3,7 +3,7 @@ Objective:
 Create an interactive nonsense poem generator using the rita.js library.
 Use at least three different functions from the rita.js library to process the user's input.
 
-Current Sketch:
+Current Sketch: https://melissss4.github.io/workshop-task-6/ 
 
 For this workshop I wanted to fork someone’s week 4 sketch because that is the week we focused on making buttons and incorporating text and entering the text onto our sketch with the buttons, I thought this would be a great starting point for this workshop as we would be needing to use those two elements to make a nonsense poem. 
 
