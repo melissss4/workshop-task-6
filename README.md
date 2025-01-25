@@ -28,8 +28,8 @@ After playing around with merging the code I did not have too many issues as bot
 ![Screen Shot 2025-01-26 at 10 28 57 AM](https://github.com/user-attachments/assets/0639128f-0d75-44f4-af4c-35b5165fddab)
 
 
-However, I realised that with David’s function, his text did not clear from the input box after entering it, but when I kept trying to update the function I kept getting an error on P5.js and no matter what I did I could not get the text to clear after being entered. 
-I took a couple days to refresh myself, and then coming back to the code I still could not figure out the reason for the error. I ended up leaving this fault (half because I liked how it looked, I think it adds to the deconstructed nature of the poem) and decided I would publish the code like this because it calls back to David's original code and I wanted to keep a lot of what he originally had since I did not want to completely decimate what he made since I liked it a lot originally. 
+However, I realised that with David’s function, their text did not clear from the input box after entering it, but when I kept trying to update the function I kept getting an error on P5.js and no matter what I did I could not get the text to clear after being entered. 
+I took a couple days to refresh myself, and then coming back to the code I still could not figure out the reason for the error. I ended up leaving this fault (half because I liked how it looked, I think it adds to the deconstructed nature of the poem) and decided I would publish the code like this because it calls back to David's original code and I wanted to keep a lot of what they originally had since I did not want to completely decimate what they made since I liked it a lot originally. 
 
 
 
