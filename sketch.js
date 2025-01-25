@@ -1,60 +1,82 @@
-let userinputtext;
-let helpbutton = [];
-let textoptions = [];
-let redslider;
-let greenslider;
-let blueslider;
+
+let userInput, userinputtext;
+let button, helpButton = [];
+let userLine, redSlider, greenSlider, blueSlider;
+let poem = [];
+let textOptions = ['Help', "I don't know what to do", 'Brain not working'];
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
+  // Poem input and button
+  userInput = createInput();
+  userInput.position(50, 120);
+  button = createButton('Add to Poem');
+  button.position(userInput.x, userInput.y + 21);
+  button.mousePressed(newLine);
+
+  // Help input and button
   userinputtext = createInput();
-  userinputtext.position(53,90);
-
-  textWrap(CHAR);
-
-  textoptions.push('Help');
-  textoptions.push('I don\'t know what to do');
-  textoptions.push('Brain not working');
-
-  let button = createButton('Help');
-  button.position(263, 90);
-  button.mousePressed(() => {
-    let r = random(textoptions);
-    helpbutton.push(r);
+  userinputtext.position(50, 180);
+  let helpButtonElement = createButton('Help');
+  helpButtonElement.position(260, 180);
+  helpButtonElement.mousePressed(() => {
+    let r = random(textOptions);
+    helpButton.push(r);
   });
 
-  redslider = createSlider(0,255);
-  redslider.position(50, 3);
-  redslider.size(255);
+  // Color sliders
+  redSlider = createSlider(0, 255);
+  redSlider.position(50, 20);
+  redSlider.size(255);
 
-  greenslider = createSlider(0,255);
-  greenslider.position(50, 37);
-  greenslider.size(255);
+  greenSlider = createSlider(0, 255);
+  greenSlider.position(50, 50);
+  greenSlider.size(255);
 
-  blueslider = createSlider(0,255);
-  blueslider.position(50, 70);
-  blueslider.size(255);
-
+  blueSlider = createSlider(0, 255);
+  blueSlider.position(50, 80);
+  blueSlider.size(255);
 }
 
-function windowResized(){
-  resizeCanvas(windowWidth,windowHeight);
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
-
-// function mousePressed(){
-//   text('Help', 240, 150);
-// }
 
 function draw() {
-  let red = redslider.value();
-  let blue = blueslider.value();
-  let green = greenslider.value();
-  background(red,green,blue);
-  let usertext = userinputtext.value();
-  text(usertext, 53, 150, 185);
-  
-  for (i=0;i<helpbutton.length;i++){
-    text(helpbutton[i],240,150 + i * 20);
+  let red = redSlider.value();
+  let green = greenSlider.value();
+  let blue = blueSlider.value();
+  background(red, green, blue);
+
+  writePoem();
+
+  let userText = userinputtext.value();
+  text(userText, 50, 230, 185);
+
+  for (let i = 0; i < helpButton.length; i++) {
+    text(helpButton[i], 260, 230 + i * 20);
+  }
+}
+
+function newLine() {
+  userLine = userInput.value();
+  userInput.value('');
+  let words = RiTa.tokenize(userLine);
+  let r = floor(random(0, words.length));
+  let rhymes = RiTa.rhymes(words[r]);
+  if (rhymes.length === 0) {
+    poem.push(userLine);
+  } else {
+    let changedWord = random(rhymes);
+    words[r] = changedWord;
+    userLine = RiTa.untokenize(words);
+    poem.push(userLine);
+  }
+}
+
+function writePoem() {
+  for (let x = 0; x < poem.length; x++) {
+    text(poem[x], 50, 260 + x * 20);
   }
 }
