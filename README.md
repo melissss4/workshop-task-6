@@ -14,7 +14,7 @@ I really liked how they had the different sliders to change the colour of the ba
 ![Screen Shot 2025-01-26 at 10 28 04 AM](https://github.com/user-attachments/assets/ee6327c3-f476-45c5-a650-13b6855b2a70)
 
 
-I also really liked how he had the function with the button create this function. I thought this would be very interesting to incorporate into the nonsense poem function because they would have a cool juxtaposition. 
+I also really liked how they had the function with the button create this function. I thought this would be very interesting to incorporate into the nonsense poem function because they would have a cool juxtaposition. 
 
 
 ![Screen Shot 2025-01-26 at 10 28 29 AM](https://github.com/user-attachments/assets/6e3c5a5f-5c91-46d6-aef9-4c5f0af39682)
