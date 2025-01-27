@@ -8,7 +8,8 @@ Current Sketch: https://melissss4.github.io/workshop-task-6/
 
 For this workshop I wanted to fork someone’s week 4 sketch because that is the week we focused on making buttons and incorporating text and entering the text onto our sketch with the buttons, I thought this would be a great starting point for this workshop as we would be needing to use those two elements to make a nonsense poem. 
 
-I decided to fork David Surkalim’s week 4 GitHub repository. 
+I decided to fork David Surkalim’s week 4 GitHub repository.  
+https://github.com/Garuinja/workshop-task-4 
 I really liked how they had the different sliders to change the colour of the background. I also found it very interesting how they decided to code it, as I had just been using the RGB 220, 220, 220 way. 
 
 ![Screen Shot 2025-01-26 at 10 28 04 AM](https://github.com/user-attachments/assets/ee6327c3-f476-45c5-a650-13b6855b2a70)
