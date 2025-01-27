@@ -8,14 +8,12 @@ let textOptions = ['Help', "I don't know what to do", 'Brain not working'];
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
-  // Poem input and button
   userInput = createInput();
   userInput.position(50, 120);
   button = createButton('Add to Poem');
   button.position(userInput.x, userInput.y + 21);
   button.mousePressed(newLine);
 
-  // Help input and button
   userinputtext = createInput();
   userinputtext.position(50, 180);
   let helpButtonElement = createButton('Help');
@@ -25,7 +23,6 @@ function setup() {
     helpButton.push(r);
   });
 
-  // Color sliders
   redSlider = createSlider(0, 255);
   redSlider.position(50, 20);
   redSlider.size(255);
