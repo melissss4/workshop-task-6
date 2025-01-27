@@ -20,9 +20,15 @@ I also really liked how they had the function with the button to create this fun
 ![Screen Shot 2025-01-26 at 10 28 29 AM](https://github.com/user-attachments/assets/6e3c5a5f-5c91-46d6-aef9-4c5f0af39682)
 
 
-Since I am not too familiar with coding and being able to merge code I wanted to play it a bit more safe and stick a bit closer to the code shown in the workshop, and the code written by David. However I wanted my randomised poem to instead of making a word rhyme I wanted it to take out a random word that was entered. I also wanted to have the poem be written from the bottom up so that it is constantly changing, having a different beginning, middle and ending with each additional line added. I liked how this made it feel like it was alive and evolving. 
+Since I am not too familiar with coding and being able to merge code I wanted to play it a bit more safe and stick a bit closer to the code shown in the workshop, and the code written by David. However I wanted my randomised poem to instead of making a word rhyme I wanted it to take out a random word that was entered, so I scrapped the original code using the Rita library, and didn’t use it. This meant that instead of making a random word rhyme, my code would just take a random word out. I wanted to be sure I could easily add back in the Rita library so I left my code in a way that it would be easy to add back in. 
+
+ ![Screen Shot 2025-01-27 at 5 16 53 PM](https://github.com/user-attachments/assets/375d303c-7810-4600-82c7-b7129505b2ec)
+
+ 
+ I also wanted to have the poem be written from the bottom up so that it is constantly changing, having a different beginning, middle and ending with each additional line added. I liked how this made it feel like it was alive and evolving. 
 
 After playing around with merging the code I did not have too many issues as both were easy enough to navigate.  The only issue I had was with the different buttons and text input boxes overlapping because I did not make their coordinates on the canvas far enough away from each other, so I quickly corrected that and played around with the text function and came to the realisation that I was very happy with the product created. I thought that with David’s interesting function added with my function to take out a random word, the poem had a really cool deconstructed feel to it. 
+ 
 
 
 ![Screen Shot 2025-01-26 at 10 28 57 AM](https://github.com/user-attachments/assets/0639128f-0d75-44f4-af4c-35b5165fddab)
